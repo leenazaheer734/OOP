@@ -1,0 +1,6 @@
+D:\OOP\BankProject\BankProject\bin\Release\BankProject.exe.config
+D:\OOP\BankProject\BankProject\bin\Release\BankProject.exe
+D:\OOP\BankProject\BankProject\bin\Release\BankProject.pdb
+D:\OOP\BankProject\BankProject\obj\Release\BankProject.csproj.CoreCompileInputs.cache
+D:\OOP\BankProject\BankProject\obj\Release\BankProject.exe
+D:\OOP\BankProject\BankProject\obj\Release\BankProject.pdb

@@ -1,0 +1,10 @@
+D:\OOP\week3\gamePD3\gamePD3\bin\Debug\gamePD3.exe.config
+D:\OOP\week3\gamePD3\gamePD3\bin\Debug\gamePD3.exe
+D:\OOP\week3\gamePD3\gamePD3\bin\Debug\gamePD3.pdb
+D:\OOP\week3\gamePD3\gamePD3\bin\Debug\EZInput.dll
+D:\OOP\week3\gamePD3\gamePD3\bin\Debug\EZInput.xml
+D:\OOP\week3\gamePD3\gamePD3\obj\Debug\gamePD3.csproj.AssemblyReference.cache
+D:\OOP\week3\gamePD3\gamePD3\obj\Debug\gamePD3.csproj.CoreCompileInputs.cache
+D:\OOP\week3\gamePD3\gamePD3\obj\Debug\gamePD3.csproj.CopyComplete
+D:\OOP\week3\gamePD3\gamePD3\obj\Debug\gamePD3.exe
+D:\OOP\week3\gamePD3\gamePD3\obj\Debug\gamePD3.pdb

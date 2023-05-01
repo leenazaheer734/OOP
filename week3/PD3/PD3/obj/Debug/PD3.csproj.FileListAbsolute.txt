@@ -1,0 +1,7 @@
+D:\OOP\week3\PD3\PD3\obj\Debug\PD3.csproj.AssemblyReference.cache
+D:\OOP\week3\PD3\PD3\obj\Debug\PD3.csproj.CoreCompileInputs.cache
+D:\OOP\week3\PD3\PD3\bin\Debug\PD3.exe.config
+D:\OOP\week3\PD3\PD3\bin\Debug\PD3.exe
+D:\OOP\week3\PD3\PD3\bin\Debug\PD3.pdb
+D:\OOP\week3\PD3\PD3\obj\Debug\PD3.exe
+D:\OOP\week3\PD3\PD3\obj\Debug\PD3.pdb

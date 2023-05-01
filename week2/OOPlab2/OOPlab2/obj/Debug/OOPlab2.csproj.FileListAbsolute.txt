@@ -1,0 +1,7 @@
+D:\OOP\week2\OOPlab2\OOPlab2\bin\Debug\OOPlab2.exe.config
+D:\OOP\week2\OOPlab2\OOPlab2\bin\Debug\OOPlab2.exe
+D:\OOP\week2\OOPlab2\OOPlab2\bin\Debug\OOPlab2.pdb
+D:\OOP\week2\OOPlab2\OOPlab2\obj\Debug\OOPlab2.csproj.AssemblyReference.cache
+D:\OOP\week2\OOPlab2\OOPlab2\obj\Debug\OOPlab2.csproj.CoreCompileInputs.cache
+D:\OOP\week2\OOPlab2\OOPlab2\obj\Debug\OOPlab2.exe
+D:\OOP\week2\OOPlab2\OOPlab2\obj\Debug\OOPlab2.pdb

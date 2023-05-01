@@ -1,0 +1,7 @@
+D:\OOP\week2\BankAdmin\BankAdmin\obj\Debug\BankAdmin.csproj.AssemblyReference.cache
+D:\OOP\week2\BankAdmin\BankAdmin\obj\Debug\BankAdmin.csproj.CoreCompileInputs.cache
+D:\OOP\week2\BankAdmin\BankAdmin\bin\Debug\BankAdmin.exe.config
+D:\OOP\week2\BankAdmin\BankAdmin\bin\Debug\BankAdmin.exe
+D:\OOP\week2\BankAdmin\BankAdmin\bin\Debug\BankAdmin.pdb
+D:\OOP\week2\BankAdmin\BankAdmin\obj\Debug\BankAdmin.exe
+D:\OOP\week2\BankAdmin\BankAdmin\obj\Debug\BankAdmin.pdb

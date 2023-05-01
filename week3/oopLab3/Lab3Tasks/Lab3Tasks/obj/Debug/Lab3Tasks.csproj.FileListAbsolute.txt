@@ -1,0 +1,7 @@
+D:\OOP\week3\oopLab3\Lab3Tasks\Lab3Tasks\bin\Debug\Lab3Tasks.exe.config
+D:\OOP\week3\oopLab3\Lab3Tasks\Lab3Tasks\bin\Debug\Lab3Tasks.exe
+D:\OOP\week3\oopLab3\Lab3Tasks\Lab3Tasks\bin\Debug\Lab3Tasks.pdb
+D:\OOP\week3\oopLab3\Lab3Tasks\Lab3Tasks\obj\Debug\Lab3Tasks.csproj.AssemblyReference.cache
+D:\OOP\week3\oopLab3\Lab3Tasks\Lab3Tasks\obj\Debug\Lab3Tasks.csproj.CoreCompileInputs.cache
+D:\OOP\week3\oopLab3\Lab3Tasks\Lab3Tasks\obj\Debug\Lab3Tasks.exe
+D:\OOP\week3\oopLab3\Lab3Tasks\Lab3Tasks\obj\Debug\Lab3Tasks.pdb
