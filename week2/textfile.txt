@@ -1,7 +1,3 @@
 amna,2121,user
 leena,1234,Admin
 fatima,999,user
-opop,9090,user
-yasmeen,2112,user
-mama,1111,Admin
-shah,1112,Admin

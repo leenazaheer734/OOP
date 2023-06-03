@@ -1,0 +1,7 @@
+D:\OOP\week7\lab7CH1\lab7CH1\bin\Debug\lab7CH1.exe.config
+D:\OOP\week7\lab7CH1\lab7CH1\bin\Debug\lab7CH1.exe
+D:\OOP\week7\lab7CH1\lab7CH1\bin\Debug\lab7CH1.pdb
+D:\OOP\week7\lab7CH1\lab7CH1\obj\Debug\lab7CH1.csproj.AssemblyReference.cache
+D:\OOP\week7\lab7CH1\lab7CH1\obj\Debug\lab7CH1.csproj.CoreCompileInputs.cache
+D:\OOP\week7\lab7CH1\lab7CH1\obj\Debug\lab7CH1.exe
+D:\OOP\week7\lab7CH1\lab7CH1\obj\Debug\lab7CH1.pdb

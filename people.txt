@@ -1,4 +1,6 @@
 0,leenazaheer,1212,admin,admin,0,00000000000,admin
-1,noorfatima,2345,client,current,200000,03222222222,running
-2,aleesha,5555,,salary,5000000,03321293829,running
+1,noor,2345,client,current,200000,03222222222,running
 3,amna,2222,client,current,300000,03344907812,running
+5,jahil,6767,client,salary,900,03244561233,running
+6,afeera,4444,client,current,2500,03143139313,running
+7,lini,8989,client,current,800,18937487189,running

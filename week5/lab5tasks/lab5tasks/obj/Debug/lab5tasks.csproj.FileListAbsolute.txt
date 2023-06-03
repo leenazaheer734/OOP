@@ -1,0 +1,7 @@
+D:\OOP\week5\lab5tasks\lab5tasks\bin\Debug\lab5tasks.exe.config
+D:\OOP\week5\lab5tasks\lab5tasks\bin\Debug\lab5tasks.exe
+D:\OOP\week5\lab5tasks\lab5tasks\bin\Debug\lab5tasks.pdb
+D:\OOP\week5\lab5tasks\lab5tasks\obj\Debug\lab5tasks.csproj.AssemblyReference.cache
+D:\OOP\week5\lab5tasks\lab5tasks\obj\Debug\lab5tasks.csproj.CoreCompileInputs.cache
+D:\OOP\week5\lab5tasks\lab5tasks\obj\Debug\lab5tasks.exe
+D:\OOP\week5\lab5tasks\lab5tasks\obj\Debug\lab5tasks.pdb

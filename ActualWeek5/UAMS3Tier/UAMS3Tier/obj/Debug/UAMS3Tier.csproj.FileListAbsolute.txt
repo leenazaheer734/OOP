@@ -1,0 +1,7 @@
+D:\OOP\ActualWeek5\UAMS3Tier\UAMS3Tier\bin\Debug\UAMS3Tier.exe.config
+D:\OOP\ActualWeek5\UAMS3Tier\UAMS3Tier\bin\Debug\UAMS3Tier.exe
+D:\OOP\ActualWeek5\UAMS3Tier\UAMS3Tier\bin\Debug\UAMS3Tier.pdb
+D:\OOP\ActualWeek5\UAMS3Tier\UAMS3Tier\obj\Debug\UAMS3Tier.csproj.AssemblyReference.cache
+D:\OOP\ActualWeek5\UAMS3Tier\UAMS3Tier\obj\Debug\UAMS3Tier.csproj.CoreCompileInputs.cache
+D:\OOP\ActualWeek5\UAMS3Tier\UAMS3Tier\obj\Debug\UAMS3Tier.exe
+D:\OOP\ActualWeek5\UAMS3Tier\UAMS3Tier\obj\Debug\UAMS3Tier.pdb

@@ -1,0 +1,7 @@
+D:\OOP\BankwithClasses\BankwithClasses\bin\Debug\BankwithClasses.exe.config
+D:\OOP\BankwithClasses\BankwithClasses\bin\Debug\BankwithClasses.exe
+D:\OOP\BankwithClasses\BankwithClasses\bin\Debug\BankwithClasses.pdb
+D:\OOP\BankwithClasses\BankwithClasses\obj\Debug\BankwithClasses.csproj.AssemblyReference.cache
+D:\OOP\BankwithClasses\BankwithClasses\obj\Debug\BankwithClasses.csproj.CoreCompileInputs.cache
+D:\OOP\BankwithClasses\BankwithClasses\obj\Debug\BankwithClasses.exe
+D:\OOP\BankwithClasses\BankwithClasses\obj\Debug\BankwithClasses.pdb

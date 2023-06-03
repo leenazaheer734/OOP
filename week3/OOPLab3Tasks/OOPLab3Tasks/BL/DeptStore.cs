@@ -8,6 +8,7 @@ namespace OOPLab3Tasks.BL
 {
     class DeptStore
     {
+
         public void Viewproducts(List<DeptStore> p)
         {
             Console.Clear();
@@ -19,6 +20,7 @@ namespace OOPLab3Tasks.BL
                 Console.WriteLine("  " + view.pName + "\t" + view.pCatagory + "\t\t" + view.pPrice + "\t" + view.pQuantity);
             }
         }
+
         public void CostlyProduct(List<DeptStore> p)
         {
             float largest = p[0].pPrice;
@@ -37,6 +39,7 @@ namespace OOPLab3Tasks.BL
             Console.WriteLine("  Name" + "\t\t" + "Catagory" + "\t" + "Price" + "\t" + "Quantity");
             Console.WriteLine("  " + p[index].pName + "\t" + p[index].pCatagory + "\t\t" + p[index].pPrice + "\t" + p[index].pQuantity);
         }
+
         public void ProductstobeOrdered(List<DeptStore> p)
         {
             Console.Clear();
@@ -52,6 +55,7 @@ namespace OOPLab3Tasks.BL
                 }
             }
         }
+
         public void CalculateTax(List<DeptStore> p)
         {
             foreach (DeptStore tax in p)

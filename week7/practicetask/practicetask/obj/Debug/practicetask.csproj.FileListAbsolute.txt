@@ -1,0 +1,7 @@
+D:\OOP\week7\practicetask\practicetask\bin\Debug\practicetask.exe.config
+D:\OOP\week7\practicetask\practicetask\bin\Debug\practicetask.exe
+D:\OOP\week7\practicetask\practicetask\bin\Debug\practicetask.pdb
+D:\OOP\week7\practicetask\practicetask\obj\Debug\practicetask.csproj.AssemblyReference.cache
+D:\OOP\week7\practicetask\practicetask\obj\Debug\practicetask.csproj.CoreCompileInputs.cache
+D:\OOP\week7\practicetask\practicetask\obj\Debug\practicetask.exe
+D:\OOP\week7\practicetask\practicetask\obj\Debug\practicetask.pdb

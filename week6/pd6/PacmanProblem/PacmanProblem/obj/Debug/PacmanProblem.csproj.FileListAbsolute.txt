@@ -1,0 +1,10 @@
+D:\OOP\week6\pd6\PacmanProblem\PacmanProblem\bin\Debug\PacmanProblem.exe.config
+D:\OOP\week6\pd6\PacmanProblem\PacmanProblem\bin\Debug\PacmanProblem.exe
+D:\OOP\week6\pd6\PacmanProblem\PacmanProblem\bin\Debug\PacmanProblem.pdb
+D:\OOP\week6\pd6\PacmanProblem\PacmanProblem\obj\Debug\PacmanProblem.csproj.AssemblyReference.cache
+D:\OOP\week6\pd6\PacmanProblem\PacmanProblem\obj\Debug\PacmanProblem.csproj.CoreCompileInputs.cache
+D:\OOP\week6\pd6\PacmanProblem\PacmanProblem\obj\Debug\PacmanProblem.exe
+D:\OOP\week6\pd6\PacmanProblem\PacmanProblem\obj\Debug\PacmanProblem.pdb
+D:\OOP\week6\pd6\PacmanProblem\PacmanProblem\bin\Debug\EZInput.dll
+D:\OOP\week6\pd6\PacmanProblem\PacmanProblem\bin\Debug\EZInput.xml
+D:\OOP\week6\pd6\PacmanProblem\PacmanProblem\obj\Debug\PacmanProblem.csproj.CopyComplete

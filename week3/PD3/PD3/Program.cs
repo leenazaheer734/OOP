@@ -17,289 +17,287 @@ namespace BankProject
             List<Credentials> users = new List<Credentials>();
             string choice = "", adminChoice = "", clientChoice = "";
             LoadDatafromFile1(users, ref accountnum);
+            while (choice != "2")
             {
-                while (choice != "2")
+                Header();
+                choice = Firstinterface();
+                if (choice == "1")
                 {
                     Header();
-                    choice = Firstinterface();
-                    if (choice == "1")
+                    Console.WriteLine("                              Login Menu                               ");
+                    Console.WriteLine("    ===================================================================");
+                    Credentials user = Takeinputwithoutrole();
+
+                    if (user != null)
                     {
-                        Header();
-                        Console.WriteLine("                              Login Menu                               ");
-                        Console.WriteLine("    ===================================================================");
-                        Credentials user = Takeinputwithoutrole();
-                        
-                        if (user != null)
+                        user = SignIn(user, users);
+                        if (user == null)
                         {
-                            user = SignIn(user, users);
-                            if(user == null)
+                            Console.WriteLine("User not found");
+                            GoBack();
+                        }
+                        else if (user.isAdmin())
+                        {
+                            while (adminChoice != "12")
                             {
-                                Console.WriteLine("User not found");
-                                GoBack();
-                            }
-                            else if (user.isAdmin())
-                            {
-                                while (adminChoice != "12")
+                                Header();
+                                adminChoice = AdminMenu();
+                                if (adminChoice == "1")
                                 {
                                     Header();
-                                    adminChoice = AdminMenu();
-                                    if (adminChoice == "1")
-                                    {
-                                        Header();
-                                        string submenu = "Create Client Account";
-                                        PrintsubMenu(submenu);
+                                    string submenu = "Create Client Account";
+                                    PrintsubMenu(submenu);
 
-                                        Credentials admin = Takeinputwithrole(accountnum, users);
+                                    Credentials admin = Takeinputwithrole(accountnum, users);
+                                    Console.WriteLine();
+                                    Console.WriteLine("    Account number " + accountnum + " successfully created! ");
+                                    users.Add(admin);
+                                    StoreinFile1(admin);        // storing data in people file
+                                    accountnum++;
+                                }
+                                else if (adminChoice == "2")
+                                {
+                                    Header();
+                                    Console.WriteLine();
+                                    string submenu = "Delete Client Account";
+                                    PrintsubMenu(submenu);
+
+                                    Credentials d = Takeinput();
+                                    bool check = d.Checkuserexistance(users);
+                                    if (check == true)
+                                    {
+                                        d.Account_close(users);
+                                        Updatedatainfile1(users);
                                         Console.WriteLine();
-                                        Console.WriteLine("    Account number " + accountnum + " successfully created! ");
-                                        users.Add(admin);
-                                        StoreinFile1(admin);        // storing data in people file
-                                        accountnum++;
+                                        Console.WriteLine("   Account succesfully closed! ");
                                     }
-                                    else if (adminChoice == "2")
+                                    else
                                     {
-                                        Header();
-                                        Console.WriteLine();
-                                        string submenu = "Delete Client Account";
-                                        PrintsubMenu(submenu);
+                                        Console.WriteLine("   User does not exists! ");
+                                    }
+                                }
+                                else if (adminChoice == "3")
+                                {
+                                    Header();
+                                    string submenu = "Freeze Client Account";
+                                    PrintsubMenu(submenu);
+                                    Credentials f = Takeinput();
+                                    bool flag = f.Freeze_account(users);
+                                    if (flag == true)
+                                    {
+                                        Updatedatainfile1(users);
+                                        Console.Write("    Account is blocked now!");
+                                    }
+                                    else if (flag == false)
+                                    {
+                                        Console.Write("    Account does not exists..");
+                                    }
+                                }
+                                else if (adminChoice == "4")
+                                {
+                                    Header();
+                                    string submenu = "Search Client Account";
+                                    PrintsubMenu(submenu);
 
-                                        Credentials d = Takeinput();
-                                        bool check = d.Checkuserexistance(users);
-                                        if (check == true)
-                                        {
-                                            d.Account_close(users);
-                                            Updatedatainfile1(users);
-                                            Console.WriteLine();
-                                            Console.WriteLine("   Account succesfully closed! ");
-                                        }
-                                        else
-                                        {
-                                            Console.WriteLine("   User does not exists! ");
-                                        }
-                                    }
-                                    else if (adminChoice == "3")
+                                    Credentials d = Takeinput();
+                                    bool flag = d.Search_account(users);   // searching a user's details
+                                    if (flag == false)
                                     {
-                                        Header();
-                                        string submenu = "Freeze Client Account";
-                                        PrintsubMenu(submenu);
-                                        Credentials f = Takeinput();
-                                        bool flag = f.Freeze_account(users);
-                                        if (flag == true)
-                                        {
-                                            Updatedatainfile1(users);
-                                            Console.Write("    Account is blocked now!");
-                                        }
-                                        else if (flag == false)
-                                        {
-                                            Console.Write("    Account does not exists..");
-                                        }
+                                        Console.Write("    Account  not  found!");
                                     }
-                                    else if (adminChoice == "4")
-                                    {
-                                        Header();
-                                        string submenu = "Search Client Account";
-                                        PrintsubMenu(submenu);
+                                }
+                                else if (adminChoice == "5")
+                                {
+                                    Header();
+                                    string submenu = "Updating Client's Record";
+                                    PrintsubMenu(submenu);
+                                    Credentials updt = Takeinput();
 
-                                        Credentials d = Takeinput();
-                                        bool flag = d.Search_account(users);   // searching a user's details
-                                        if (flag == false)
-                                        {
-                                            Console.Write("    Account  not  found!");
-                                        }
-                                    }
-                                    else if (adminChoice == "5")
+                                    updt = SignIn(updt, users);
+                                    if (updt != null)
                                     {
-                                        Header();
-                                        string submenu = "Updating Client's Record";
-                                        PrintsubMenu(submenu);
-                                        Credentials updt = Takeinput();
-
-                                        updt = SignIn(updt,users);
-                                        if (updt != null)
-                                        {
-                                            string option = UpdateMenu();   // updating a user's deatils
-                                            if (option == "1")
-                                            {
-                                                Console.Write("   Enter new name: ");
-                                                string newname = Console.ReadLine();
-                                                newname = NamelettersValidity(newname);                  // checking if name has only alphabets
-                                                newname = Nametakenvalidity(newname, users); // checking if name is already taken
-                                                updt.UpdateName(newname, users);
-                                            }
-                                            else if (option == "2")
-                                            {
-                                                Console.Write("   Enter new pin: ");
-                                                string newpass = Console.ReadLine();
-                                                newpass = Pindigitscheck(newpass); // checking 4-digits of pin
-                                                newpass = CheckpinValidity(newpass, users);
-                                                updt.UpdatePin(newpass, users);
-                                            }
-                                            else if (option == "3")
-                                            {                                                                                                                                                                                                                                                                                              
-                                                Console.Write("   Enter new account type: ");
-                                                string newacctype = Console.ReadLine();
-                                                newacctype = Checkaccounttype(newacctype);
-                                                updt.Updatetype(newacctype, users);
-                                            }
-                                            else if (option == "4")
-                                            {
-                                                Console.Write("   Enter new balance: ");
-                                                string tempaccbalance = Console.ReadLine();
-                                                float newbalance = BalanceValidity(tempaccbalance);
-                                                updt.Updatebalance(newbalance, users);
-                                            }
-                                            else if (option == "5")
-                                            {
-                                                Console.Write("   Enter new status(freeze/running): ");
-                                                string newstatus = Console.ReadLine();
-                                                updt.Updatestatus(newstatus, users);
-                                            }
-                                            else if (option == "6")
-                                            {
-                                                Console.Write("   Enter new phonenumber: ");
-                                                string  newnumber = Console.ReadLine();
-                                                newnumber = Phone_numberLength(newnumber);  // getting 11 digit phone number
-                                                newnumber = PhonenumberValidity(newnumber); // checking if phonenumber contains only numbers
-                                                updt.Updatephonenumber(newnumber, users);
-                                            }
-                                            else if (option == "7")
-                                            {
-                                                Credentials update = new Credentials();
-                                                Console.Write("   Enter new name: ");
-                                                update.usernames = Console.ReadLine();
-                                                update.usernames = NamelettersValidity(update.usernames);                  // checking if name has only alphabets
-                                                update.usernames = Nametakenvalidity(update.usernames, users); // checking if name is already taken
-                                                Console.Write("   Enter new pin: ");
-                                                update.passwords = Console.ReadLine();
-                                                update.passwords = Pindigitscheck(update.passwords); // checking 4-digits of pin
-                                                update.passwords = CheckpinValidity(update.passwords, users);
-                                                Console.Write("   Enter new account type: ");
-                                                update.accounttypes = Console.ReadLine();
-                                                update.accounttypes = Checkaccounttype(update.accounttypes);
-                                                Console.Write("   Enter new balance: ");
-                                                string tempaccbalance = Console.ReadLine();
-                                                update.balances = BalanceValidity(tempaccbalance);
-                                                Console.Write("    Enter new status(freeze/running): ");
-                                                update.statuses = Console.ReadLine();
-                                                Console.Write("   Enter new phonenumber: ");
-                                                update.phonenumbers = Console.ReadLine();
-                                                update.phonenumbers = Phone_numberLength(update.phonenumbers);  // getting 11 digit phone number
-                                                update.phonenumbers = PhonenumberValidity(update.phonenumbers); // checking if phonenumber contains only numbers
-
-                                                updt.Updatinguserinfo(update, users);
-                                            }
-                                            Updatedatainfile1(users);
-                                            Console.WriteLine("   UPdated account details.. ");
-                                        }
-                                        else
-                                        {
-                                            Console.WriteLine("  Account doesnot exists!");
-                                        }
-                                    }
-                                    else if (adminChoice == "6")
-                                    {
-                                        Header();
-                                        string submenu = "View Clients personal info";
-                                        PrintsubMenu(submenu);
-                                        Credentials view = new Credentials();
-                                        view.ViewAllusers(users);
-                                    }
-                                    else if (adminChoice == "7")
-                                    {
-                                        Header();
-                                        string submenu = "Give loan";
-                                        PrintsubMenu(submenu);
-                                        char answer;
-                                        ShowLoanRequests(reqLoan);
-                                        Console.WriteLine("    Do you want to give loan?(y/n) ");
-                                        answer = char.Parse(Console.ReadLine());
-                                        if (answer == 'y')
-                                        {
-                                            //giveLoan();
-                                        }
-                                    }
-                                    else if (adminChoice == "8")
-                                    {
-                                        Header();
-                                        string submenu = "View loan holders";
-                                        PrintsubMenu(submenu);
-                                        //Viewloanholders(loan_count, loanholders, givenloanamounts, givenloandays, loantime);
-                                    }
-                                    else if (adminChoice == "9")
-                                    {
-                                        Header();
-                                        string submenu = "View total money";
-                                        PrintsubMenu(submenu);
-                                        Credentials view = new Credentials();
-                                        Console.WriteLine("  TOtal money present in bank is : " + view.Totalmoney(users));
-                                    }
-                                    else if (adminChoice == "10")
-                                    {
-                                        Header();
-                                        string submenu = "Apply tax";
-                                        PrintsubMenu(submenu);
-                                        string option = TaxMenu();
+                                        string option = UpdateMenu();   // updating a user's deatils
                                         if (option == "1")
                                         {
-                                            Credentials d = Takeinput();
-                                            bool check = d.Search_account(users);
-                                            if (check == true)
-                                            {
-                                                Console.Write("   Enter percentage of tax to implement: ");
-                                                string tpercent = Console.ReadLine();
-                                                int percentofTax = CheckPercentage(tpercent);
-                                                d.TaxonSpecific(percentofTax, users);
-                                                Updatedatainfile1(users);
-                                                Console.WriteLine("   TAx has been deducted!");
-                                            }
-                                            else
-                                            {
-                                                Console.WriteLine("   Invalid account!");
-                                            }
+                                            Console.Write("   Enter new name: ");
+                                            string newname = Console.ReadLine();
+                                            newname = NamelettersValidity(newname);                  // checking if name has only alphabets
+                                            newname = Nametakenvalidity(newname, users); // checking if name is already taken
+                                            updt.UpdateName(newname, users);
                                         }
                                         else if (option == "2")
                                         {
-                                            Header();
-                                            submenu = "tax on all clients";
-                                            PrintsubMenu(submenu);
-                                            Console.Write("    Enter percentage of tax to implement: ");
-                                            string tempnumber = Console.ReadLine();
-                                            int percentofTax = int.Parse(PhonenumberValidity(tempnumber));
-                                            Credentials tax = new Credentials();
-                                            tax.TaxonAll(percentofTax,users);
+                                            Console.Write("   Enter new pin: ");
+                                            string newpass = Console.ReadLine();
+                                            newpass = Pindigitscheck(newpass); // checking 4-digits of pin
+                                            newpass = CheckpinValidity(newpass, users);
+                                            updt.UpdatePin(newpass, users);
+                                        }
+                                        else if (option == "3")
+                                        {
+                                            Console.Write("   Enter new account type: ");
+                                            string newacctype = Console.ReadLine();
+                                            newacctype = Checkaccounttype(newacctype);
+                                            updt.Updatetype(newacctype, users);
+                                        }
+                                        else if (option == "4")
+                                        {
+                                            Console.Write("   Enter new balance: ");
+                                            string tempaccbalance = Console.ReadLine();
+                                            float newbalance = BalanceValidity(tempaccbalance);
+                                            updt.Updatebalance(newbalance, users);
+                                        }
+                                        else if (option == "5")
+                                        {
+                                            Console.Write("   Enter new status(freeze/running): ");
+                                            string newstatus = Console.ReadLine();
+                                            updt.Updatestatus(newstatus, users);
+                                        }
+                                        else if (option == "6")
+                                        {
+                                            Console.Write("   Enter new phonenumber: ");
+                                            string newnumber = Console.ReadLine();
+                                            newnumber = Phone_numberLength(newnumber);  // getting 11 digit phone number
+                                            newnumber = PhonenumberValidity(newnumber); // checking if phonenumber contains only numbers
+                                            updt.Updatephonenumber(newnumber, users);
+                                        }
+                                        else if (option == "7")
+                                        {
+                                            Credentials update = new Credentials();
+                                            Console.Write("   Enter new name: ");
+                                            update.usernames = Console.ReadLine();
+                                            update.usernames = NamelettersValidity(update.usernames);                  // checking if name has only alphabets
+                                            update.usernames = Nametakenvalidity(update.usernames, users); // checking if name is already taken
+                                            Console.Write("   Enter new pin: ");
+                                            update.passwords = Console.ReadLine();
+                                            update.passwords = Pindigitscheck(update.passwords); // checking 4-digits of pin
+                                            update.passwords = CheckpinValidity(update.passwords, users);
+                                            Console.Write("   Enter new account type: ");
+                                            update.accounttypes = Console.ReadLine();
+                                            update.accounttypes = Checkaccounttype(update.accounttypes);
+                                            Console.Write("   Enter new balance: ");
+                                            string tempaccbalance = Console.ReadLine();
+                                            update.balances = BalanceValidity(tempaccbalance);
+                                            Console.Write("    Enter new status(freeze/running): ");
+                                            update.statuses = Console.ReadLine();
+                                            Console.Write("   Enter new phonenumber: ");
+                                            update.phonenumbers = Console.ReadLine();
+                                            update.phonenumbers = Phone_numberLength(update.phonenumbers);  // getting 11 digit phone number
+                                            update.phonenumbers = PhonenumberValidity(update.phonenumbers); // checking if phonenumber contains only numbers
+
+                                            updt.Updatinguserinfo(update, users);
+                                        }
+                                        Updatedatainfile1(users);
+                                        Console.WriteLine("   UPdated account details.. ");
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("  Account doesnot exists!");
+                                    }
+                                }
+                                else if (adminChoice == "6")
+                                {
+                                    Header();
+                                    string submenu = "View Clients personal info";
+                                    PrintsubMenu(submenu);
+                                    Credentials view = new Credentials();
+                                    view.ViewAllusers(users);
+                                }
+                                else if (adminChoice == "7")
+                                {
+                                    Header();
+                                    string submenu = "Give loan";
+                                    PrintsubMenu(submenu);
+                                    char answer;
+                                    //ShowLoanRequests(reqLoan);
+                                    Console.WriteLine("    Do you want to give loan?(y/n) ");
+                                    answer = char.Parse(Console.ReadLine());
+                                    if (answer == 'y')
+                                    {
+                                        //giveLoan();
+                                    }
+                                }
+                                else if (adminChoice == "8")
+                                {
+                                    Header();
+                                    string submenu = "View loan holders";
+                                    PrintsubMenu(submenu);
+                                    //Viewloanholders(loan_count, loanholders, givenloanamounts, givenloandays, loantime);
+                                }
+                                else if (adminChoice == "9")
+                                {
+                                    Header();
+                                    string submenu = "View total money";
+                                    PrintsubMenu(submenu);
+                                    Credentials view = new Credentials();
+                                    Console.WriteLine("  TOtal money present in bank is : " + view.Totalmoney(users));
+                                }
+                                else if (adminChoice == "10")
+                                {
+                                    Header();
+                                    string submenu = "Apply tax";
+                                    PrintsubMenu(submenu);
+                                    string option = TaxMenu();
+                                    if (option == "1")
+                                    {
+                                        Credentials d = Takeinput();
+                                        bool check = d.Search_account(users);
+                                        if (check == true)
+                                        {
+                                            Console.Write("   Enter percentage of tax to implement: ");
+                                            string tpercent = Console.ReadLine();
+                                            int percentofTax = CheckPercentage(tpercent);
+                                            d.TaxonSpecific(percentofTax, users);
                                             Updatedatainfile1(users);
-                                            Console.WriteLine("    TAx hasbeen deducted!");
+                                            Console.WriteLine("   TAx has been deducted!");
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine("   Invalid account!");
                                         }
                                     }
-                                    else if (adminChoice == "11")
+                                    else if (option == "2")
                                     {
                                         Header();
-                                        string submenu = "Transaction details";
+                                        submenu = "tax on all clients";
                                         PrintsubMenu(submenu);
-                                        // ViewAlltransactions(trans_count, transactionaccounts, transactionamounts, transactiontypes, transactiontimes);
+                                        Console.Write("    Enter percentage of tax to implement: ");
+                                        string tempnumber = Console.ReadLine();
+                                        int percentofTax = int.Parse(PhonenumberValidity(tempnumber));
+                                        Credentials tax = new Credentials();
+                                        tax.TaxonAll(percentofTax, users);
+                                        Updatedatainfile1(users);
+                                        Console.WriteLine("    TAx hasbeen deducted!");
                                     }
+                                }
+                                else if (adminChoice == "11")
+                                {
+                                    Header();
+                                    string submenu = "Transaction details";
+                                    PrintsubMenu(submenu);
+                                    // ViewAlltransactions(trans_count, transactionaccounts, transactionamounts, transactiontypes, transactiontimes);
+                                }
+                                GoBack();
+                            }
+                        }
+                        else
+                        {
+                            while (clientChoice != "9")
+                            {
+                                Header();
+                                clientChoice = ClientMenu();
+                                if (clientChoice == "1")
+                                {
+                                    Header();
+                                    string submenu = "View Balance";
+                                    PrintsubMenu(submenu);
+                                    Console.WriteLine("  Your current account balance is: " + user.balances);
                                     GoBack();
                                 }
                             }
-                            else 
-                            {
-                                while (clientChoice != "9")
-                                {
-                                    Header();
-                                    clientChoice = ClientMenu();
-                                    if (clientChoice == "1")
-                                    {
-                                        Header();
-                                        string submenu = "View Balance";
-                                        PrintsubMenu(submenu);
-                                        Console.WriteLine("  Your current account balance is: " + user.balances);
-                                        GoBack();
-                                    }
-                                }
-                            }
                         }
-                        
                     }
+
                 }
             }
         }

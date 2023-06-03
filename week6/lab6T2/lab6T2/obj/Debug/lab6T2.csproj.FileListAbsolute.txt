@@ -1,0 +1,7 @@
+D:\OOP\week6\lab6T2\lab6T2\bin\Debug\lab6T2.exe.config
+D:\OOP\week6\lab6T2\lab6T2\bin\Debug\lab6T2.exe
+D:\OOP\week6\lab6T2\lab6T2\bin\Debug\lab6T2.pdb
+D:\OOP\week6\lab6T2\lab6T2\obj\Debug\lab6T2.csproj.AssemblyReference.cache
+D:\OOP\week6\lab6T2\lab6T2\obj\Debug\lab6T2.csproj.CoreCompileInputs.cache
+D:\OOP\week6\lab6T2\lab6T2\obj\Debug\lab6T2.exe
+D:\OOP\week6\lab6T2\lab6T2\obj\Debug\lab6T2.pdb
