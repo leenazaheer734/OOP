@@ -1,0 +1,14 @@
+D:\OOP\week12\SpaceShooter\SpaceShooter\bin\Debug\SpaceShooter.exe.config
+D:\OOP\week12\SpaceShooter\SpaceShooter\bin\Debug\SpaceShooter.exe
+D:\OOP\week12\SpaceShooter\SpaceShooter\bin\Debug\SpaceShooter.pdb
+D:\OOP\week12\SpaceShooter\SpaceShooter\obj\Debug\SpaceShooter.csproj.AssemblyReference.cache
+D:\OOP\week12\SpaceShooter\SpaceShooter\obj\Debug\SpaceShooter.Form1.resources
+D:\OOP\week12\SpaceShooter\SpaceShooter\obj\Debug\SpaceShooter.Properties.Resources.resources
+D:\OOP\week12\SpaceShooter\SpaceShooter\obj\Debug\SpaceShooter.csproj.GenerateResource.cache
+D:\OOP\week12\SpaceShooter\SpaceShooter\obj\Debug\SpaceShooter.csproj.CoreCompileInputs.cache
+D:\OOP\week12\SpaceShooter\SpaceShooter\obj\Debug\SpaceShooter.exe
+D:\OOP\week12\SpaceShooter\SpaceShooter\obj\Debug\SpaceShooter.pdb
+D:\OOP\week12\SpaceShooter\SpaceShooter\bin\Debug\EZInput.dll
+D:\OOP\week12\SpaceShooter\SpaceShooter\bin\Debug\EZInput.xml
+D:\OOP\week12\SpaceShooter\SpaceShooter\obj\Debug\SpaceShooter.csproj.CopyComplete
+D:\OOP\week12\SpaceShooter\SpaceShooter\obj\Debug\SpaceShooter.frmGameEnd.resources

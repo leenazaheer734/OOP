@@ -1,0 +1,6 @@
+D:\OOP\week10\lab10\lab10\bin\Release\lab10.exe.config
+D:\OOP\week10\lab10\lab10\bin\Release\lab10.exe
+D:\OOP\week10\lab10\lab10\bin\Release\lab10.pdb
+D:\OOP\week10\lab10\lab10\obj\Release\lab10.csproj.CoreCompileInputs.cache
+D:\OOP\week10\lab10\lab10\obj\Release\lab10.exe
+D:\OOP\week10\lab10\lab10\obj\Release\lab10.pdb

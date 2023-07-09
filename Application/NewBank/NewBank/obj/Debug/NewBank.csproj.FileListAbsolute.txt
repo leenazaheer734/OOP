@@ -1,0 +1,7 @@
+D:\OOP\Application\NewBank\NewBank\bin\Debug\NewBank.exe.config
+D:\OOP\Application\NewBank\NewBank\bin\Debug\NewBank.exe
+D:\OOP\Application\NewBank\NewBank\bin\Debug\NewBank.pdb
+D:\OOP\Application\NewBank\NewBank\obj\Debug\NewBank.csproj.AssemblyReference.cache
+D:\OOP\Application\NewBank\NewBank\obj\Debug\NewBank.csproj.CoreCompileInputs.cache
+D:\OOP\Application\NewBank\NewBank\obj\Debug\NewBank.exe
+D:\OOP\Application\NewBank\NewBank\obj\Debug\NewBank.pdb

@@ -2,3 +2,4 @@ amna,2121,customer
 leena,1234,admin
 fatima,999,customer
 afeera,4444,customer
+leenazaheer,121,admin

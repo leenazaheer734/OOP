@@ -1,0 +1,17 @@
+D:\OOP\Application\bankGUI\bankGUI\obj\Debug\bankGUI.csproj.AssemblyReference.cache
+D:\OOP\Application\bankGUI\bankGUI\obj\Debug\bankGUI.Form1.resources
+D:\OOP\Application\bankGUI\bankGUI\obj\Debug\bankGUI.Properties.Resources.resources
+D:\OOP\Application\bankGUI\bankGUI\obj\Debug\bankGUI.csproj.GenerateResource.cache
+D:\OOP\Application\bankGUI\bankGUI\obj\Debug\bankGUI.csproj.CoreCompileInputs.cache
+D:\OOP\Application\bankGUI\bankGUI\bin\Debug\bankGUI.exe.config
+D:\OOP\Application\bankGUI\bankGUI\bin\Debug\bankGUI.exe
+D:\OOP\Application\bankGUI\bankGUI\bin\Debug\bankGUI.pdb
+D:\OOP\Application\bankGUI\bankGUI\bin\Debug\Guna.UI2.dll
+D:\OOP\Application\bankGUI\bankGUI\obj\Debug\bankGUI.csproj.CopyComplete
+D:\OOP\Application\bankGUI\bankGUI\obj\Debug\bankGUI.exe
+D:\OOP\Application\bankGUI\bankGUI\obj\Debug\bankGUI.pdb
+D:\OOP\Application\bankGUI\bankGUI\obj\Debug\bankGUI.AdminSignUp.resources
+D:\OOP\Application\bankGUI\bankGUI\obj\Debug\bankGUI.SignInForm.resources
+D:\OOP\Application\bankGUI\bankGUI\obj\Debug\bankGUI.AdminMenu.resources
+D:\OOP\Application\bankGUI\bankGUI\obj\Debug\bankGUI.OpenAccount.resources
+D:\OOP\Application\bankGUI\bankGUI\obj\Debug\bankGUI.closeAcc.resources

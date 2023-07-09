@@ -1,0 +1,7 @@
+D:\OOP\week8\lab8\L8P1\L8P1\bin\Debug\L8P1.exe.config
+D:\OOP\week8\lab8\L8P1\L8P1\bin\Debug\L8P1.exe
+D:\OOP\week8\lab8\L8P1\L8P1\bin\Debug\L8P1.pdb
+D:\OOP\week8\lab8\L8P1\L8P1\obj\Debug\L8P1.csproj.AssemblyReference.cache
+D:\OOP\week8\lab8\L8P1\L8P1\obj\Debug\L8P1.csproj.CoreCompileInputs.cache
+D:\OOP\week8\lab8\L8P1\L8P1\obj\Debug\L8P1.exe
+D:\OOP\week8\lab8\L8P1\L8P1\obj\Debug\L8P1.pdb

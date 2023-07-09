@@ -1,0 +1,7 @@
+D:\OOP\week8\lab8\Lab8P4\Lab8P4\bin\Debug\Lab8P4.exe.config
+D:\OOP\week8\lab8\Lab8P4\Lab8P4\bin\Debug\Lab8P4.exe
+D:\OOP\week8\lab8\Lab8P4\Lab8P4\bin\Debug\Lab8P4.pdb
+D:\OOP\week8\lab8\Lab8P4\Lab8P4\obj\Debug\Lab8P4.csproj.AssemblyReference.cache
+D:\OOP\week8\lab8\Lab8P4\Lab8P4\obj\Debug\Lab8P4.csproj.CoreCompileInputs.cache
+D:\OOP\week8\lab8\Lab8P4\Lab8P4\obj\Debug\Lab8P4.exe
+D:\OOP\week8\lab8\Lab8P4\Lab8P4\obj\Debug\Lab8P4.pdb

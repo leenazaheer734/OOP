@@ -8,7 +8,7 @@ namespace BankwithClasses.BL
 {
     class Client
     {
-        public BUser credentials; 
+        public BUser credentials;
         public string accounttypes;
         public float balances;
         public string phonenumbers;

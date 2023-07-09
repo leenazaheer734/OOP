@@ -1,0 +1,10 @@
+naimam,0000,admin
+amna,7777,customeer
+noor,1111,customer
+bisma,3333,customer
+laiba,0000,xx
+lahore,2222,s
+a,13,admin
+misbah,7777,gjg
+afeera,8888,admin
+leena,1234,admin

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Contains">
+    <Position X="5.506" Y="2.451" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="Has an">
+    <Position X="11.122" Y="2.106" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="Contains">
+    <Position X="8.635" Y="2.177" Height="0.374" Width="0.7" />
+  </Comment>
+  <Comment CommentText="Takes">
+    <Position X="11.813" Y="5.015" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="is an">
+    <Position X="5.523" Y="9.494" Height="0.291" Width="0.92" />
+  </Comment>
+  <Comment CommentText="is an">
+    <Position X="9.975" Y="9.427" Height="0.291" Width="0.92" />
+  </Comment>
+  <Class Name="NewBank.BL.Account">
+    <Position X="12" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAABgAAAAAAAACAAIARABBEQAAAACAAAAAAA=</HashCode>
+      <FileName>BL\Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewBank.BL.Admin">
+    <Position X="3.25" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BL\Admin.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Person" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NewBank.BL.Client">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICABAAAAAQAAAAAAAAAAAAAAAAAIAAAQAAARAAAAEA=</HashCode>
+      <FileName>BL\Client.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Person" />
+      <Property Name="Account" />
+      <Property Name="Transaction" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NewBank.BL.Gold">
+    <Position X="5.75" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CQAAAAAAAACAAAgAABAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>BL\Gold.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewBank.BL.Item">
+    <Position X="7.5" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAAgAAAACAACgAAQIAAAAAAAAAACAAABAAAAAAEAA=</HashCode>
+      <FileName>BL\Item.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Loan" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NewBank.BL.Loan">
+    <Position X="11.25" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEIAAAAAAAggAAAIAEAAAAIACAAjAEAAIQBAACACAAQ=</HashCode>
+      <FileName>BL\Loan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Client" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NewBank.BL.Person">
+    <Position X="6.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAhAEAABAAIABEAAEIAAABAAAAEAgAAAIA=</HashCode>
+      <FileName>BL\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewBank.BL.Property">
+    <Position X="8.75" Y="10.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAQAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>BL\Property.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewBank.BL.Transaction">
+    <Position X="4.25" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAEAAAAAAAIAAAQABAAAQAAgAQIBAAAAQCAAAA=</HashCode>
+      <FileName>BL\Transaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

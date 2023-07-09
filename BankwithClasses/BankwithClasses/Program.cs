@@ -30,6 +30,7 @@ namespace BankwithClasses
                     BankUI.Header();
                     Console.WriteLine("                              Login Menu                               ");
                     Console.WriteLine("    ===================================================================");
+             
                     BUser user = BUserUI.Takeinputwithoutrole();
 
                     if(user != null)
@@ -213,42 +214,6 @@ namespace BankwithClasses
                                     BankUI.PrintsubMenu(submenu);
                                     Client view = new Client();
                                     Console.WriteLine("  TOtal money present in bank is : " + ClientDL.Totalmoney());
-                                    BankUI.GoBack();
-                                }
-                                else if (adminChoice == "10")
-                                {
-                                    BankUI.Header();
-                                    string submenu = "Apply tax";
-                                    BankUI.PrintsubMenu(submenu);
-                                    string option = BankUI.TaxMenu();
-                                    if (option == "1")
-                                    {
-                                        Client d = BUserUI.Takeinput();
-                                        bool check = ClientDL.Checkuserexistance(d);
-                                        if (check == true)
-                                        {
-                                            int percentofTax = BUserUI.TaxPercent();
-                                            ClientDL.TaxonSpec(percentofTax, d);
-                                            ClientDL.Updatedatainfile1();
-                                            Console.WriteLine("   TAx has been deducted!");
-                                        }
-                                        else
-                                        {
-                                            Console.WriteLine("   Invalid account!");
-                                        }
-                                    }
-                                    else if (option == "2")
-                                    {
-                                        BankUI.Header();
-                                        submenu = "tax on all clients";
-                                        BankUI.PrintsubMenu(submenu);
-
-                                        int percentofTax = BUserUI.TaxPercent();
-                                        ClientDL.TaxonAll(percentofTax);
-
-                                        ClientDL.Updatedatainfile1();
-                                        Console.WriteLine("    TAx hasbeen deducted!");
-                                    }
                                     BankUI.GoBack();
                                 }
                                 else if (adminChoice == "11")

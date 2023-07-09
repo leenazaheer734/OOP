@@ -49,7 +49,10 @@ namespace BankwithClasses.UI
             float withdrawAmount = BUserUI.BalanceValidity(tempwithdraw);
 
             ClientDL.cutmoneyfromaccount(withdrawAmount, c);
+
             string cDateTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+
+
 
             Transaction t = new Transaction(c, withdrawAmount, "withdraw", cDateTime);
             TransactionDL.doTransaction(t);

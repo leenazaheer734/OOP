@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33423.256
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankWithGUI", "BankWithGUI\BankWithGUI.csproj", "{AAB73B7E-5692-4366-86C5-4C44BF9B6EC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAB73B7E-5692-4366-86C5-4C44BF9B6EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB73B7E-5692-4366-86C5-4C44BF9B6EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB73B7E-5692-4366-86C5-4C44BF9B6EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB73B7E-5692-4366-86C5-4C44BF9B6EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2331FD33-966E-4A45-8E56-29267D48FDD5}
+	EndGlobalSection
+EndGlobal

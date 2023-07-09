@@ -1,0 +1,12 @@
+D:\OOP\Application\BankWithGUI\BankWithGUI\bin\Debug\BankWithGUI.exe.config
+D:\OOP\Application\BankWithGUI\BankWithGUI\bin\Debug\BankWithGUI.exe
+D:\OOP\Application\BankWithGUI\BankWithGUI\bin\Debug\BankWithGUI.pdb
+D:\OOP\Application\BankWithGUI\BankWithGUI\obj\Debug\BankWithGUI.csproj.AssemblyReference.cache
+D:\OOP\Application\BankWithGUI\BankWithGUI\obj\Debug\BankWithGUI.BankMain.resources
+D:\OOP\Application\BankWithGUI\BankWithGUI\obj\Debug\BankWithGUI.Properties.Resources.resources
+D:\OOP\Application\BankWithGUI\BankWithGUI\obj\Debug\BankWithGUI.csproj.GenerateResource.cache
+D:\OOP\Application\BankWithGUI\BankWithGUI\obj\Debug\BankWithGUI.csproj.CoreCompileInputs.cache
+D:\OOP\Application\BankWithGUI\BankWithGUI\obj\Debug\BankWithGUI.exe
+D:\OOP\Application\BankWithGUI\BankWithGUI\obj\Debug\BankWithGUI.pdb
+D:\OOP\Application\BankWithGUI\BankWithGUI\obj\Debug\BankWithGUI.AdminSignUp.resources
+D:\OOP\Application\BankWithGUI\BankWithGUI\obj\Debug\BankWithGUI.SignInForm.resources

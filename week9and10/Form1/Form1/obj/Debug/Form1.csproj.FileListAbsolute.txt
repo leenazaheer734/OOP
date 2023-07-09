@@ -1,0 +1,9 @@
+D:\OOP\week9and10\Form1\Form1\bin\Debug\Form1.exe.config
+D:\OOP\week9and10\Form1\Form1\bin\Debug\Form1.exe
+D:\OOP\week9and10\Form1\Form1\bin\Debug\Form1.pdb
+D:\OOP\week9and10\Form1\Form1\obj\Debug\Form1.csproj.AssemblyReference.cache
+D:\OOP\week9and10\Form1\Form1\obj\Debug\Form1.Properties.Resources.resources
+D:\OOP\week9and10\Form1\Form1\obj\Debug\Form1.csproj.GenerateResource.cache
+D:\OOP\week9and10\Form1\Form1\obj\Debug\Form1.csproj.CoreCompileInputs.cache
+D:\OOP\week9and10\Form1\Form1\obj\Debug\Form1.exe
+D:\OOP\week9and10\Form1\Form1\obj\Debug\Form1.pdb
