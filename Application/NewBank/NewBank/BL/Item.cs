@@ -52,5 +52,7 @@ namespace NewBank.BL
         public virtual void setPropertyAddress(string address)
         {
         }
+
+
     }
 }

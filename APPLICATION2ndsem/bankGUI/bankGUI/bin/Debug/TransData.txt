@@ -1,0 +1,6 @@
+amna,0909,client,03338148187,4,0,Current,running,50000,7/27/2023 7:37:20 PM,withdraw,NA
+amna,0909,client,03338148187,4,-3000,Current,running,3000,7/27/2023 7:37:51 PM,transfer,1
+amna,0909,client,03338148187,4,3000,Current,running,6000,7/27/2023 7:38:07 PM,deposit,NA
+noor,7878,client,03145678234,6,3000,Current,running,1000,7/30/2023 10:27:11 PM,withdraw,NA
+noor,7878,client,03145678234,6,2000,Current,running,1000,7/30/2023 10:27:32 PM,transfer,5
+noor,7878,client,03145678234,6,52000,Current,running,50000,7/30/2023 10:27:40 PM,deposit,NA

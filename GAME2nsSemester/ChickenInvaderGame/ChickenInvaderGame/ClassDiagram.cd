@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ChickenInvaderGame.GL.GameCell" Collapsed="true">
+    <Position X="7.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAQAQAAAAwACACIAAADgAAAAAAAAYAA=</HashCode>
+      <FileName>GL\GameCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChickenInvaderGame.GL.GameEnemy" Collapsed="true">
+    <Position X="7.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABACAAAAAAAAACAAAAAAAAAAAAAAABAAAAAQAAAAAg=</HashCode>
+      <FileName>GL\GameEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChickenInvaderGame.GL.GameFire" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAABAQAAAQAA=</HashCode>
+      <FileName>GL\GameFire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChickenInvaderGame.GL.GameGrid" Collapsed="true">
+    <Position X="7.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEQAAAAAAEIAAABAAIACAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GL\GameGrid.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="GameCell" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChickenInvaderGame.GL.GameObject" Collapsed="true">
+    <Position X="7.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAABAAAAEgAAQBAAAEAAEAAAABA=</HashCode>
+      <FileName>GL\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChickenInvaderGame.GL.GamePlayerShip" Collapsed="true">
+    <Position X="11.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAACAAAAAAAAAAAIAAAACAAAAAAAAAAg=</HashCode>
+      <FileName>GL\GamePlayerShip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChickenInvaderGame.GL.GameReward" Collapsed="true">
+    <Position X="5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAABAQAAAQAA=</HashCode>
+      <FileName>GL\GameReward.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChickenInvaderGame.GL.HorizontalEnemy" Collapsed="true">
+    <Position X="4.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>GL\HorizontalEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChickenInvaderGame.GL.RandomEnemy" Collapsed="true">
+    <Position X="6.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAACAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>GL\RandomEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChickenInvaderGame.GL.SmartEnemy" Collapsed="true">
+    <Position X="8.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAABIAACAAAAAAAA=</HashCode>
+      <FileName>GL\SmartEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChickenInvaderGame.UL.Game" Collapsed="true">
+    <Position X="10.25" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAARkGgAAIpAFQABAAQYBwJgAAOAAwEhAQAgAAAASAA=</HashCode>
+      <FileName>UL\Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChickenInvaderGame.UL.GameCollisionDetector" Collapsed="true">
+    <Position X="11.25" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAgABAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>UL\GameCollisionDetector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChickenInvaderGame.GameIntro" Collapsed="true">
+    <Position X="15" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAAAAAAACAAICCAAgAAAAAAAIAACQAIAU=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChickenInvaderGame.GameControlsForm" Collapsed="true">
+    <Position X="17.25" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAKAAAACAAAAAAAAQAAAAwAAIA0=</HashCode>
+      <FileName>GameControlsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChickenInvaderGame.GameMissionForm" Collapsed="true">
+    <Position X="15" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAAKAAABCAAAAAAAAQAAAAAAAAAU=</HashCode>
+      <FileName>GameMissionForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChickenInvaderGame.GameOverForm" Collapsed="true">
+    <Position X="13.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAQAKAAAACAAAACAACAAAAQBAAAAAAAAAA=</HashCode>
+      <FileName>GameOverForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChickenInvaderGame.GameStartForm" Collapsed="true">
+    <Position X="13" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAECEAgFAAAAGALAACAAgiJABJCAAAEAAoyAQ=</HashCode>
+      <FileName>GameStartForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ChickenInvaderGame.GL.GameDirection" Collapsed="true">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAEAAAI=</HashCode>
+      <FileName>GL\GameDirection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ChickenInvaderGame.GL.GameObjectType" Collapsed="true">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAMAAAAAAQAAAABAAAAAAAAAAAABQAAAAAA=</HashCode>
+      <FileName>GL\GameObjectType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -381,6 +381,7 @@ namespace NewBank
                                     BankUI.Header();
                                     string submenu = "Last Month Transactions";
                                     BankUI.PrintsubMenu(submenu);
+
                                     if (TransDL.checkOneMonthDateDiff(c1).Count > 0)
                                     {
                                         Console.WriteLine("enter 1 to generate pdf of your last month transactions: ");

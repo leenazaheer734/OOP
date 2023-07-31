@@ -223,5 +223,7 @@ namespace NewBank.UI
                 Console.WriteLine("  This Client has not requested loan");
             }
         }
+
+
     }
 }

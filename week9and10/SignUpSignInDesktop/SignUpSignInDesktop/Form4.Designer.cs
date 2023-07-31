@@ -30,9 +30,9 @@ namespace SignUpSignInDesktop
         private void InitializeComponent()
         {
             this.usersGV = new System.Windows.Forms.DataGridView();
-            this.Update = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.cb = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cb = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.Update = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.usersGV)).BeginInit();
             this.SuspendLayout();
             // 
@@ -42,28 +42,11 @@ namespace SignUpSignInDesktop
             this.usersGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Update,
             this.cb});
-            this.usersGV.Location = new System.Drawing.Point(164, 64);
+            this.usersGV.Location = new System.Drawing.Point(164, 45);
             this.usersGV.Name = "usersGV";
             this.usersGV.Size = new System.Drawing.Size(600, 374);
             this.usersGV.TabIndex = 0;
             this.usersGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.usersGV_CellContentClick);
-            // 
-            // Update
-            // 
-            this.Update.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Update.HeaderText = "Update";
-            this.Update.Name = "Update";
-            this.Update.Text = "Update";
-            this.Update.UseColumnTextForButtonValue = true;
-            // 
-            // cb
-            // 
-            this.cb.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.cb.HeaderText = "cb";
-            this.cb.Items.AddRange(new object[] {
-            "Leave",
-            "Present"});
-            this.cb.Name = "cb";
             // 
             // comboBox1
             // 
@@ -78,6 +61,23 @@ namespace SignUpSignInDesktop
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 1;
             // 
+            // cb
+            // 
+            this.cb.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cb.HeaderText = "cb";
+            this.cb.Items.AddRange(new object[] {
+            "Leave",
+            "Present"});
+            this.cb.Name = "cb";
+            // 
+            // Update
+            // 
+            this.Update.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Update.HeaderText = "Update";
+            this.Update.Name = "Update";
+            this.Update.Text = "Update";
+            this.Update.UseColumnTextForButtonValue = true;
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -87,6 +87,7 @@ namespace SignUpSignInDesktop
             this.Controls.Add(this.usersGV);
             this.Name = "Form4";
             this.Text = "Form4";
+            this.Load += new System.EventHandler(this.Form4_Load);
             ((System.ComponentModel.ISupportInitialize)(this.usersGV)).EndInit();
             this.ResumeLayout(false);
 

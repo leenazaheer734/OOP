@@ -56,5 +56,10 @@ namespace SignUpSignInDesktop
             // usersGV.DataSource = MUserDL.UserList;
             usersGV.Refresh();
         }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

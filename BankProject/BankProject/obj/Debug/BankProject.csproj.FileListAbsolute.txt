@@ -1,7 +1,0 @@
-D:\OOP\BankProject\BankProject\bin\Debug\BankProject.exe.config
-D:\OOP\BankProject\BankProject\bin\Debug\BankProject.exe
-D:\OOP\BankProject\BankProject\bin\Debug\BankProject.pdb
-D:\OOP\BankProject\BankProject\obj\Debug\BankProject.csproj.AssemblyReference.cache
-D:\OOP\BankProject\BankProject\obj\Debug\BankProject.csproj.CoreCompileInputs.cache
-D:\OOP\BankProject\BankProject\obj\Debug\BankProject.exe
-D:\OOP\BankProject\BankProject\obj\Debug\BankProject.pdb

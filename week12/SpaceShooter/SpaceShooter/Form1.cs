@@ -162,6 +162,9 @@ namespace SpaceShooter
                     playerHealth.Value = playerHealth.Value - 10;
                 }
             }
+
+
+
             if (playerHealth.Value <= 0)
             {
                 showGameEnd(SpaceShooter.Properties.Resources.gover);

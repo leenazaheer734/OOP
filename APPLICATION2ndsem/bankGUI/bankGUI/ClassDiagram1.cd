@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="bankGUI.BL.Account">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAAAAAAAAAAgACAAIAAgBAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>BL\Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bankGUI.BL.Admin">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>BL\Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bankGUI.BL.Client">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAQAAAAEA=</HashCode>
+      <FileName>BL\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bankGUI.BL.Gold">
+    <Position X="4.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAAAAAAAACAAAgAABAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>BL\Gold.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bankGUI.BL.Item">
+    <Position X="5.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAACAACgAAQIAAAAAAAAAACAAABAAAAAAEAA=</HashCode>
+      <FileName>BL\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bankGUI.BL.Loan">
+    <Position X="9" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAAAAAAggAAAIAEAAAAIACAAjAEAAIQBAACACAAA=</HashCode>
+      <FileName>BL\Loan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bankGUI.BL.Person">
+    <Position X="12.5" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEQAAQBEAAEAAAAACAAAAAgAAAAA=</HashCode>
+      <FileName>BL\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bankGUI.BL.Property">
+    <Position X="6.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAQAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>BL\Property.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bankGUI.BL.Transaction">
+    <Position X="12" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAAAAAAAAAAAAAACAAQAAgAEBAIAAAQCAAAA=</HashCode>
+      <FileName>BL\Transaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bankGUI.DL.AdminDL" Collapsed="true">
+    <Position X="1.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAIAIAAAAAAAAAAEBIAAAAAAAAEAACAA=</HashCode>
+      <FileName>DL\AdminDL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bankGUI.DL.ClientDL" Collapsed="true">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAiEAAAAABAAAACAgAAAgQAgAAAgAAAgBAABBABA=</HashCode>
+      <FileName>DL\ClientDL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bankGUI.DL.ExtraDL" Collapsed="true">
+    <Position X="5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>DL\ExtraDL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bankGUI.DL.LoanDL" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQgAAAEAAAAAgQAAAEAAAAIABKAAABAAAAAAAEAA=</HashCode>
+      <FileName>DL\LoanDL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bankGUI.DL.Pdf_For_Admin" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DL\Pdf_For_Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bankGUI.DL.PdfGenerator">
+    <Position X="1.25" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DL\PdfGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bankGUI.DL.TransDL" Collapsed="true">
+    <Position X="1.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAACAkgAAAAAAAAgAAAAAAIAAAAAIAAgAA=</HashCode>
+      <FileName>DL\TransDL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
